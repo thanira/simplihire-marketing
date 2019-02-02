@@ -38,21 +38,6 @@
 <body id="body">
 
   <!--==========================
-    Top Bar - Email e Social Media
-  ============================-->
-  <section id="topbar" class="d-none d-lg-block">
-    <div class="container clearfix">
-      <div class="contact-info float-left">
-        <i class="fa fa-envelope-o"></i> <a href="mailto:contact@example.com">simplihire2019@gmail.com</a>
-      </div>
-      <div class="social-links float-right">
-        <a href="https://twitter.com/SimpliHire2019" class="twitter"><i class="fa fa-twitter"></i></a>
-        <a href="https://www.facebook.com/simplihire2019" class="facebook"><i class="fa fa-facebook"></i></a>
-      </div>
-    </div>
-  </section>
-
-  <!--==========================
     Header - Nav Bar
   ============================-->
   <header id="header">
@@ -75,15 +60,15 @@
   </header><!-- #header -->
 
   <!--==========================
-    Intro Section
+    Intro Section - PRIMEIRO SLIDE
   ============================-->
   <section id="intro">
 
-    <div class="intro-content wow fadeInDown" data-wow-duration="2s" >
+    <div class="intro-content" data-wow-duration="2s" >
       <h2><img src="img/logoCS.png" class=" img-logo img-fluid" alt="SimpliHire"></h2>
       <div>
         <a href="#about" class="btn-get-started scrollto">Saiba mais</a>
-        <a href="#call-to-action" class="btn-projects scrollto">Inovação</a>
+        <a href="#services" class="btn-projects scrollto">Inovação</a>
       </div>
     </div>
 
@@ -100,7 +85,7 @@
   <main id="main">
 
     <!--==========================
-      Video Section - Saiba Mais
+      Video Section - Saiba Mais - SEGUNDO SLIDE
     ============================-->
     <section id="about" class="wow fadeIn" data-duration="2s">
       <div class="container">
@@ -114,7 +99,7 @@
     </section><!-- #about -->
 
     <!--==========================
-      Services Section - Inovação
+      Services Section - Inovação - TERCEIRO SLIDE
     ============================-->
     <section id="services">
       <div class="container">
@@ -165,27 +150,54 @@
     
 
     <!--==========================
-      Call To Action Section
+      Call To Action Section - Pacotes - QUARTO SLIDE
     ============================-->
     <section id="call-to-action" class="wow fadeInUp">
       <div class="container">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
             <h3 class="cta-title wow pulse" data-wow-iteration="10">Pacotes</h3>
-            <p class="cta-text"> Confira nossos planos de subscrições mensal ou anual. Temos também disponível um pacote lite para as micro e pequenas empresas com os mesmos benefícios.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Clique aqui</a>
-          </div>
+          <p class="cta-text"> Confira nossos planos de subscrições mensal ou anual. Temos também disponível um pacote lite para as micro e pequenas empresas com os mesmos benefícios. Aproveite para ter acesso a um período experimental de 18 dias consecutivos, gratuitamente!</p>
         </div>
 
-      </div>
-    </section><!-- #call-to-action -->
+        <div class="row">
 
-    
+          <div class="col-lg-4">
+            <div class="box wow fadeInLeft">
+                <div class="box-title">
+                  <div class="icon"><i class="fa fa-money"></i></div>
+                  <h4 class="title">Mensal</h4>
+                </div>
+              <p class="description">Um perfeito pacote mensal, por apenas EUR 499,90 por mês!Aproveite!Um perfeito pacote mensal, por apenas EUR 499,90 por mês!Aproveite!m perfeito pacote mensal, por apenas EUR 499,90 por mês!</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="box wow fadeInRight">
+              <div class="box-title">
+                <div class="icon"><i class="fa fa-check"></i></div>
+                <h4 class="title">Mensal Lite</h4>
+              </div>
+              <p class="description">Por apenas EUR 199,00 mensais, e uma redução de aproximadamente 40\% em relação ao preço para as médias e grandes empresas, esse pacote é perfeito para sua pequena empresa!</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="box-title">
+                <div class="icon"><i class="fa fa-euro"></i></div>
+                <h4 class="title">Anual</h4>
+              </div>
+              <p class="description">Melhor opção para grandes empresas, por apenas EUR 4.799,00 por ano em apenas um pagamento conjunto. Uma poupança de 20% em comparação ao plano mensal normal!</p>
+            </div>
+          </div>
+
+
+      </div>
+    </section>
 
     <!--==========================
-      Contact Section - Contate-nos
+      Contact Section - Contate-nos - QUINTO SLIDE
     ============================-->
     <section id="contact" class="wow fadeInUp">
       <div class="container">
@@ -193,13 +205,12 @@
           <h2>Contate-nos</h2>
           <p>Se quiser saber mais sobre nossa plataforma, nos envie uma mensagem e um de nossos membros da equipa irá vos responder todas as perguntas.</p>
         </div>
-     
 
       <div class="container">
         <div class="form">
           <div id="sendmessage">Sua mensagem foi enviada. Obrigada!</div>
           <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
+          <form action="https://formspree.io/thanira@email.com" method="post" role="form" class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Por favor, insira pelo menos 4 caracteres" />
@@ -232,6 +243,15 @@
   ============================-->
   <footer id="footer">
     <div class="container">
+      <div id="bottombar" class="d-none d-lg-block">
+        <div class="contact-info float-left">
+          <i class="fa fa-envelope-o"></i> <a href="mailto:contact@example.com">simplihire2019@gmail.com</a>
+        </div>
+        <div class="social-links float-right">
+          <a href="https://twitter.com/SimpliHire2019" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.facebook.com/simplihire2019" class="facebook"><i class="fa fa-facebook"></i></a>
+        </div>
+      </div>
       <div class="copyright">
         &copy; Copyright <strong>SimpliHire</strong>. All Rights Reserved
       </div>
