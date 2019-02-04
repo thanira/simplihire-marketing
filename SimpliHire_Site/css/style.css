@@ -382,9 +382,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro .intro-content h2 {
   color: #252839;
-  margin-bottom: 30px;
-  font-size: 64px;
-  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 #intro .intro-content .btn-get-started,
@@ -452,8 +452,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #about {
-  padding: 100px 0 100px 0;
-  background: #829bb4;  
+  padding: 90px 0 100px 0;
+  background: #829bb4;      
+}
+
+#about .text-center h2{
+    color: #252839;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
 }
 
 
