@@ -5,7 +5,7 @@ Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
 
 PALETA DE CORES USADAS
 #252839
-#829bb4
+#7cafd0
 #677077
 #b5b5b7
 #f2b632
@@ -55,7 +55,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #829bb4;
+  background: #7cafd0;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -66,7 +66,7 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #829bb4;
+  background: #7cafd0;
   color: #fff;
   outline: none;
 }
@@ -161,7 +161,7 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu .menu-active > a {
-  color: #829bb4;
+  color: #7cafd0;
 }
 
 .nav-menu > li {
@@ -189,7 +189,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #829bb4;
+  color: #7cafd0;
 }
 
 .nav-menu ul ul {
@@ -272,11 +272,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #829BB4;
+  color: #7cafd0;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #829BB4;
+  color: #7cafd0;
 }
 
 #mobile-body-overly {
@@ -453,7 +453,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about {
   padding: 90px 0 100px 0;
-  background: #829bb4;      
+  background: #7cafd0;      
 }
 
 #about .text-center h2{
@@ -501,7 +501,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box .icon i:before {
   background: #252839;
-  background: linear-gradient(45deg, #252839 0%, #829bb4 100%);
+  background: linear-gradient(45deg, #252839 0%, #7cafd0 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -633,7 +633,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 50px;
   height: 3px;
-  background: #829bb4;
+  background: #7cafd0;
   bottom: 0;
   left: 0;
 }
@@ -644,8 +644,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #829bb4;
-  border: 1px solid #829bb4;
+  color: #7cafd0;
+  border: 1px solid #7cafd0;
   display: none;
   text-align: center;
   padding: 15px;
@@ -686,7 +686,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #829bb4;
+  background: #7cafd0;
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
@@ -720,7 +720,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #bottombar .contact-info a:hover {
-  color: #829bb4;
+  color: #7cafd0;
 }
 
 #bottombar .contact-info i {
@@ -737,7 +737,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #bottombar .social-links a:hover {
-  color: #829bb4;
+  color: #7cafd0;
 }
 
 #bottombar .social-links a:first-child {
